@@ -102,7 +102,7 @@ Finally, the pivot element is swapped with the element at index i (which is the 
 _______________________________________________________________________________________________________________________________________________
 
 Rust Implementation of Selection Sort
-This repository contains a Rust implementation of the selection sort algorithm, which is a comparison-based sorting algorithm that divides an input array into a sorted and an unsorted part. The sorted part is initially empty and the unsorted part is the entire input array. The algorithm proceeds by finding the smallest element in the unsorted part, swapping it with the leftmost unsorted element, and then moving the boundary between the sorted and unsorted parts one element to the right. This process is repeated until the entire array is sorted.
+This repository contains a Rust implementation of [Selection Sort](./main/selection_sort.rs) algorithm, which is a comparison-based sorting algorithm that divides an input array into a sorted and an unsorted part. The sorted part is initially empty and the unsorted part is the entire input array. The algorithm proceeds by finding the smallest element in the unsorted part, swapping it with the leftmost unsorted element, and then moving the boundary between the sorted and unsorted parts one element to the right. This process is repeated until the entire array is sorted.
 
 
 Code Description
