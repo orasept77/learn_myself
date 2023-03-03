@@ -1,5 +1,5 @@
 Bubble Sort Algorithm
-This repository contains a Rust implementation of the [Bubble Sort](./rsc/bubble_sort.rs) algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order.
+This repository contains a Rust implementation of the [Bubble Sort](./src/bubble_sort.rs) algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order.
 
 
 Code Description
@@ -25,7 +25,7 @@ In this example, the swap method is used to swap the second and fourth elements 
 ________________________________________________________________________________________________________________________________________________
 
 Insertion Sort Algorithm
-This repository contains a Rust implementation of [Insertion Sort.rs](./insertion_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
+This repository contains a Rust implementation of [Insertion Sort.rs](./src/insertion_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
 
 
 Code Description
