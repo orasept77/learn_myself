@@ -15,10 +15,11 @@ One interesting feature of this implementation is the use of the swap method to 
 
 
 Here is an example of how the swap method can be used to swap two elements in a slice:
+```rust
 let mut arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 arr.swap(1, 3);
 println!("{:?}", arr); // Output: [3, 1, 1, 4, 5, 9, 2, 6, 5, 3, 5]
-
+```
 
 In this example, the swap method is used to swap the second and fourth elements of the array arr, resulting in the output [3, 1, 1, 4, 5, 9, 2, 6, 5, 3, 5]. This technique can be very useful in many different algorithms and data structures.
 
@@ -45,7 +46,7 @@ Interesting Feature
 One interesting feature of this implementation is the use of the j variable to iterate backwards through the sorted portion of the array. This allows the algorithm to efficiently find the correct position for the key value in the sorted array.
 
 Here is an example of how the j variable is used in this implementation:
-
+```rust
 let mut arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 let key = 5;
 let mut j = 4;
@@ -57,7 +58,7 @@ while j >= 0 && arr[j] > key {
 
 arr[j + 1] = key;
 println!("{:?}", arr); // Output: [3, 1, 4, 1, 5, 5, 9, 2, 6, 5, 3]
-
+```
 In this example, the j variable is initialized to the index of the last element in the sorted portion of the array that is less than the key value. The loop then iterates backwards through the sorted portion of the array, moving each element one position to the right until it finds the correct position for the key value. Finally, the key value is inserted into the correct position in the array using the expression arr[j+1] = key. This technique can be very useful in many different algorithms and data structures.
 
 ______________________________________________________________________________________________________________________________________________
@@ -87,12 +88,13 @@ To overcome this limitation, more advanced partitioning strategies such as the "
 
 
 Here is an example of how the partition function works:
+```rust
 let mut arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 let low = 0;
 let high = arr.len() - 1;
 let pi = partition(&mut arr, low, high);
 println!("{:?}", arr); // Output: [1, 1, 2, 3, 3, 4, 5, 6, 5, 9, 5]
-
+```
 In this example, the partition function is called with the arr slice, low index of 0, and high index of 10. The function selects the last element in the sub-array (5) as the pivot, and then iterates over the elements in the sub-array from left to right.
 
 For each element that is less than the pivot (1, 1, 4, 2, 3, 3, 5, and 5), the element is swapped with the element at the current index i (which is initially equal to low, or 0). This ensures that all elements less than the pivot are to the left of index i.
