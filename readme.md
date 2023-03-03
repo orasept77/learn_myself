@@ -25,7 +25,7 @@ In this example, the swap method is used to swap the second and fourth elements 
 ________________________________________________________________________________________________________________________________________________
 
 Insertion Sort Algorithm
-This repository contains a Rust implementation of the Insertion Sort algorithm. Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time.
+This repository contains a Rust implementation of [selection sort](./selection_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
 
 
 Code Description
