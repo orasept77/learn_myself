@@ -1,5 +1,5 @@
 Bubble Sort Algorithm
-This repository contains a Rust implementation of the Bubble Sort algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order.
+This repository contains a Rust implementation of the [Bubble Sort](./rsc/bubble_sort.rs) algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order.
 
 
 Code Description
@@ -25,7 +25,7 @@ In this example, the swap method is used to swap the second and fourth elements 
 ________________________________________________________________________________________________________________________________________________
 
 Insertion Sort Algorithm
-This repository contains a Rust implementation of [selection sort](./selection_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
+This repository contains a Rust implementation of [Insertion Sort.rs](./insertion_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
 
 
 Code Description
@@ -63,7 +63,7 @@ In this example, the j variable is initialized to the index of the last element 
 ______________________________________________________________________________________________________________________________________________
 
 Quick Sort Algorithm
-This repository contains a Rust implementation of the Quick Sort algorithm. Quick Sort is a divide-and-conquer algorithm that uses a pivot element to partition an array into two sub-arrays, and then recursively sorts each sub-array.
+This repository contains a Rust implementation of the [Quick Sort](./src/quick_sort.rs) algorithm. Quick Sort is a divide-and-conquer algorithm that uses a pivot element to partition an array into two sub-arrays, and then recursively sorts each sub-array.
 
 
 Code Description
@@ -102,7 +102,7 @@ Finally, the pivot element is swapped with the element at index i (which is the 
 _______________________________________________________________________________________________________________________________________________
 
 Rust Implementation of Selection Sort
-This repository contains a Rust implementation of [Selection Sort](./main/selection_sort.rs) algorithm, which is a comparison-based sorting algorithm that divides an input array into a sorted and an unsorted part. The sorted part is initially empty and the unsorted part is the entire input array. The algorithm proceeds by finding the smallest element in the unsorted part, swapping it with the leftmost unsorted element, and then moving the boundary between the sorted and unsorted parts one element to the right. This process is repeated until the entire array is sorted.
+This repository contains a Rust implementation of [Selection Sort](./src/selection_sort.rs) algorithm, which is a comparison-based sorting algorithm that divides an input array into a sorted and an unsorted part. The sorted part is initially empty and the unsorted part is the entire input array. The algorithm proceeds by finding the smallest element in the unsorted part, swapping it with the leftmost unsorted element, and then moving the boundary between the sorted and unsorted parts one element to the right. This process is repeated until the entire array is sorted.
 
 
 Code Description
