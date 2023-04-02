@@ -8,7 +8,7 @@ Another interesting feature of this code is the use of Rust's built-in println! 
 ____________________________________________________________________________________________________
 2 .rs
 
-In [this](./src/src2/2.rs) program, three variables are declared using the let keyword: age, height, and shoe_size. age and height are both assigned the value of 10 and 72, respectively, using the i8 type suffix. shoe_size is also an 8-bit signed integer, but its value is assigned using the more explicit syntax of : i8 = 12.
+In [this](./2.rs) program, three variables are declared using the let keyword: age, height, and shoe_size. age and height are both assigned the value of 10 and 72, respectively, using the i8 type suffix. shoe_size is also an 8-bit signed integer, but its value is assigned using the more explicit syntax of : i8 = 12.
 
 The println! macro is used three times to print messages to the console, each message including a placeholder for a variable value using {}. The variables age, height, and shoe_size are passed as arguments to the macro to fill in those placeholders.
 
@@ -18,7 +18,7 @@ Overall, this code is another straightforward example of Rust's syntax and featu
 ____________________________________________________________________________________________________
 3 .rs
 
-The [program](./src/src2/3.rs) declares several variables of different types, including integers (i32, u16, isize, and i64), floating-point numbers (f32 and f64), a character (char), a string (&str), and a boolean (bool). Each variable is assigned a value and then passed as an argument to a println! macro, which formats and prints a message to the console.
+The [program](./3.rs) declares several variables of different types, including integers (i32, u16, isize, and i64), floating-point numbers (f32 and f64), a character (char), a string (&str), and a boolean (bool). Each variable is assigned a value and then passed as an argument to a println! macro, which formats and prints a message to the console.
 
 An interesting feature of this code is the use of the u16 type to represent a small distance. This type is an unsigned 16-bit integer, and is used instead of the more common i8 or i16 types. This demonstrates the flexibility of Rust's type system and the ability to choose the appropriate type for a given use case.
 
@@ -28,7 +28,7 @@ Overall, this code is a good example of Rust's syntax and data types, and could 
 ____________________________________________________________________________________________________
 4 .rs
 
-The [program](./src/src2/4.rs) declares several variables, including bugs of type i64, bug_rate of type f64, and universe_of_defects of type i32. It then performs various arithmetic operations, including multiplication, type casting, and floating-point multiplication, to compute the expected number of bugs and the percentage of bugs in the universe. Finally, it uses a null byte ('\0') to compute a care percentage.
+The [program](./4.rs) declares several variables, including bugs of type i64, bug_rate of type f64, and universe_of_defects of type i32. It then performs various arithmetic operations, including multiplication, type casting, and floating-point multiplication, to compute the expected number of bugs and the percentage of bugs in the universe. Finally, it uses a null byte ('\0') to compute a care percentage.
 
 An interesting feature of this code is the use of scientific notation ({:e}) to format the output of the println! macro. This notation is used to represent very large or very small numbers and is a common feature in scientific computing.
 
@@ -38,7 +38,7 @@ Overall, this code is a good example of Rust's arithmetic operations and type co
 ________________________________________________________________________________________________
 5 .rs
 
-[This](./src/src2/5.rs) code demonstrates the use of arrays and slices in Rust. The areas array contains 5 elements of type i8, while the ages array has 3 elements of type u8. The my_slice variable is a slice that references the first element of the ages array.
+[This](./5.rs) code demonstrates the use of arrays and slices in Rust. The areas array contains 5 elements of type i8, while the ages array has 3 elements of type u8. The my_slice variable is a slice that references the first element of the ages array.
 
 The code also uses the std::mem module to print out the size of different types and variables. For example, std::mem::size_of_val(&areas) gives the size in bytes of the areas array.
 
@@ -50,7 +50,7 @@ Overall, this code demonstrates some of the powerful features of Rust and how th
 ________________________________________________________________________________________________
 6 .rs
 
-[This](./src/src2/6.rs) code demonstrates how to iterate over arrays and command line arguments in Rust.
+[This](./6.rs) code demonstrates how to iterate over arrays and command line arguments in Rust.
 
 The program first creates an array of strings representing the names of several US states. It then prints out the names of the states using two different methods of iteration. The first method uses a traditional C-style for loop to iterate over the indices of the array, while the second method uses the iter() method to produce an iterator over the array elements.
 
@@ -60,7 +60,7 @@ Overall, this program shows how Rust provides a range of tools for iterating ove
 ________________________________________________________________________________________________
 7 .rs
 
-[This](./src/src2/7.rs) code defines two loops: the first loop iterates over the command line arguments and prints them out using a while loop, and the second loop iterates over an array of US states and prints them out using a while loop.
+[This](./7.rs) code defines two loops: the first loop iterates over the command line arguments and prints them out using a while loop, and the second loop iterates over an array of US states and prints them out using a while loop.
 
 In the first loop, it starts by getting the command line arguments and storing them in a variable called args. It then gets the length of the arguments using the len method and stores it in a variable called args_size. It initializes a counter variable i to zero and enters a while loop. Inside the loop, it prints out the current argument using the counter variable i to access the correct element of the args array. It then increments i by one and repeats the loop until i is greater than or equal to args_size.
 
@@ -68,7 +68,7 @@ In the second loop, it defines an array of US states and stores it in a variable
 ________________________________________________________________________________________________
 8 .rs
 
-[This](./src/src2/8.rs) is a Rust program that uses the os module to retrieve command line arguments. The program first gets the length of the args vector, which contains the command line arguments passed to the program. Then, the program checks the number of arguments and prints a different message depending on the number of arguments.
+[This](./8.rs) is a Rust program that uses the os module to retrieve command line arguments. The program first gets the length of the args vector, which contains the command line arguments passed to the program. Then, the program checks the number of arguments and prints a different message depending on the number of arguments.
 
 If there is only one argument, the program will print "You only have one argument". If there are between 2 and 3 arguments, the program will print "Here are your arguments:" followed by a list of the arguments separated by spaces. If there are more than 3 arguments, the program will print "You have too many arguments."
 
@@ -76,13 +76,13 @@ One interesting feature of this program is the use of the os module to get the c
 ________________________________________________________________________________________________
 9 .rs
 
-[This](./src/src2/9.rs) code snippet reads a single command-line argument and checks if it is exactly one argument. If not, it panics and displays an error message. If it is a single argument, it then loops through each character in the argument and checks if it is a vowel or not using a match expression. If the character is a vowel, it prints a message saying that it is a vowel, otherwise, it prints a message saying that it is not a vowel.
+[This](./9.rs) code snippet reads a single command-line argument and checks if it is exactly one argument. If not, it panics and displays an error message. If it is a single argument, it then loops through each character in the argument and checks if it is a vowel or not using a match expression. If the character is a vowel, it prints a message saying that it is a vowel, otherwise, it prints a message saying that it is not a vowel.
 
 The interesting feature of this code snippet is the use of the match expression with multiple patterns separated by the | operator. This allows for concise and readable code when checking for multiple possible values of a variable.
 ________________________________________________________________________________________________
 10 .rs
 
-[This](./src/src2/10.rs) is a Rust program that takes command-line arguments and prints out the ASCII value of each character in the argument string. It contains two functions, can_print_it and print_letters, and the main function.
+[This](./10.rs) is a Rust program that takes command-line arguments and prints out the ASCII value of each character in the argument string. It contains two functions, can_print_it and print_letters, and the main function.
 
 The can_print_it function takes a single character as an argument and returns a boolean value indicating whether the character is alphabetic or whitespace.
 
@@ -96,7 +96,7 @@ Interesting feature: This code demonstrates Rust's ownership and borrowing syste
 ________________________________________________________________________________________________
 11 .rs
 
-[This](./src/src2/11.rs) is a Rust program that defines a Person struct and two functions to create and print Person objects. The Person struct has four fields: name, age, height, and weight. The create_person function creates a new Person object and returns it as a boxed pointer. The print method of the Person struct prints the person's details to the console.
+[This](./11.rs) is a Rust program that defines a Person struct and two functions to create and print Person objects. The Person struct has four fields: name, age, height, and weight. The create_person function creates a new Person object and returns it as a boxed pointer. The print method of the Person struct prints the person's details to the console.
 
 In the main function, two Person objects named joe and frank are created using the create_person function. Their details are printed to the console using the print method. Then, some of their details are updated and printed again to show how the values have changed.
 
@@ -104,7 +104,7 @@ One interesting feature in this code is the use of the box keyword in the create
 ________________________________________________________________________________________________
 12 .rs
 
-[This](./src/src2/12.rs) is a Rust program for a simple database that stores data in a file. The program creates a database, sets data in it, gets data from it, deletes data from it, and lists all the data stored in it.
+[This](./12.rs) is a Rust program for a simple database that stores data in a file. The program creates a database, sets data in it, gets data from it, deletes data from it, and lists all the data stored in it.
 
 The program defines several structs:
 
