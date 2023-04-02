@@ -1,6 +1,6 @@
 1 .rs
 
-[This](./src2/1.rs) code represents a simple Rust program that prints a message to the console. The message includes a placeholder for a variable distance, which is assigned the value of 100 using the let keyword.
+[This](./1.rs) code represents a simple Rust program that prints a message to the console. The message includes a placeholder for a variable distance, which is assigned the value of 100 using the let keyword.
 
 An interesting feature of this code is the use of Rust's type suffixes, denoted by the i8 at the end of 100. This suffix indicates that distance is an 8-bit signed integer. Rust provides several type suffixes that allow you to specify the type of a numeric literal, including u8 for unsigned 8-bit integers, i32 for signed 32-bit integers, and f64 for 64-bit floating-point numbers.
 
