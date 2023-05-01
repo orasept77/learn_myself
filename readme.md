@@ -14,7 +14,7 @@ Interesting Feature
 One interesting feature of this implementation is the use of the swap method to swap two elements in the slice. The swap method is a convenient and efficient way to swap elements in a slice without needing to use temporary variables.
 
 
-Here is an example of how the swap method can be used to swap two elements in a slice:
+Here is an example of how the swap method can be used to swap two elements in a slice: 
 ```rust
 let mut arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 arr.swap(1, 3);
