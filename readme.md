@@ -1,6 +1,6 @@
 Bubble Sort Algorithm
 This repository contains a Rust implementation of the [Bubble Sort](./src/bubble_sort.rs) algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements and swaps them if they are in the wrong order.
-
+ 
  
 Code Description      
 The main function in this code is bubble_sort, which takes a mutable reference to a slice of i32 integers as input. The function then iterates over the slice using two nested loops, comparing adjacent elements and swapping them if they are in the wrong order.
