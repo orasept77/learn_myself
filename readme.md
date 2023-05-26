@@ -28,7 +28,7 @@ ________________________________________________________________________________
 Insertion Sort Algorithm
 This repository contains a Rust implementation of [Insertion Sort.rs](./src/insertion_sort.rs), which is a comparison-based sorting algorithm that builds the final sorted array one item at a time.
 
-
+ 
 Code Description
 The main function in this code is insertion_sort, which takes a mutable reference to a slice of i32 integers as input. The function then iterates over the slice using a loop that starts at index 1 and ends at the second-to-last element.
 
