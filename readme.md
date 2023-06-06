@@ -3,7 +3,7 @@ This repository contains a Rust implementation of the [Bubble Sort](./src/bubble
   
   
 Code Description        
-The main function in this code is bubble_sort, which takes a mutable reference to a slice of i32 integers as input. The function then iterates over the slice using two nested loops, comparing adjacent elements and swapping them if they are in the wrong order.
+The main function in this code is bubble_sort, which takes a mutable reference to a slice of i32 integers as input. The function then iterates over the slice using two nested loops, comparing adjacent elements and swapping them if they are in the wrong order. 
 
 
 The first loop iterates over the slice from index 0 to the second-to-last element. The second loop iterates over the slice from index 0 to n-i-1, where n is the length of the slice and i is the index of the outer loop. This ensures that the inner loop only needs to compare elements that have not already been sorted in previous iterations of the outer loop.
