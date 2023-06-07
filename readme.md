@@ -42,7 +42,7 @@ During each iteration of the loop, the value at index j is moved one position to
 After the loop has completed, the key value is inserted into its correct position in the sorted array by setting the value at index j+1 to key.
 
 
-Interesting Feature
+Interesting Feature 
 One interesting feature of this implementation is the use of the j variable to iterate backwards through the sorted portion of the array. This allows the algorithm to efficiently find the correct position for the key value in the sorted array.
 
 Here is an example of how the j variable is used in this implementation:
